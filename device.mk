@@ -37,6 +37,9 @@ PRODUCT_PACKAGES += \
     SettingsResOverlayPlato \
     SystemUIOverlayPlato \
     WifiResOverlayPlato
+    
+PRODUCT_PACKAGES += \
+    $(LOCAL_PATH)/overlay-evolution
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
