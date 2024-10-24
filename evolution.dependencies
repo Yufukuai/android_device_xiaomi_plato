@@ -4,6 +4,10 @@
     "target_path": "device/xiaomi/mt6895-common"
   },
   {
+    "repository": "android_device_mediatek_sepolicy_vndr"
+    "target_path": "device/mediatek/sepolicy_vndr"
+  },
+  {
     "repository": "android_kernel_xiaomi_mt6895"
     "target_path": "kernel/xiaomi/mt6895"
   },
@@ -14,10 +18,6 @@
   {
     "repository": "proprietary_vendor_xiaomi_plato",
     "target_path": "vendor/xiaomi/plato"
-  },
-  {
-    "repository": "android_device_mediatek_sepolicy_vndr"
-    "target_path": "device/mediatek/sepolicy_vndr"
   },
   {
     "repository": "android_hardware_xiaomi",
