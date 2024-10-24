@@ -12,7 +12,19 @@
     "target_path": "vendor/xiaomi/mt6895-common"
   },
   {
-    "repository": "android_vendor_xiaomi_plato",
+    "repository": "proprietary_vendor_xiaomi_plato",
     "target_path": "vendor/xiaomi/plato"
+  },
+  {
+    "repository": "android_device_mediatek_sepolicy_vndr"
+    "target_path": "device/mediatek/sepolicy_vndr"
+  },
+  {
+    "repository": "android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "android_hardware_mediatek",
+    "target_path": "hardware/mediatek"
   }
 ]
