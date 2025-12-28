@@ -31,9 +31,7 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/bin/mi_thermald': blob_fixup()
         .binary_regex_replace(b'%d/on', b'%d/..'),
     'vendor/etc/sensors/hals.conf': blob_fixup()
-        .regex_replace('android.hardware.sensors@2.X-subhal-mediatek.so', 'android.hardware.sensors@2.0-subhal-impl-1.0.so')
-        .regex_replace('sensors.touch.detect.so', 'sensors.dynamic_sensor_hal.so')
-        .regex_replace('sensors.elliptic@2.0.so', 'sensors.xiaomi.v2.so'),
+        .binary_regex_replace(b'%d/on', b'%d/..'),
     'vendor/etc/libnfc-nci.conf': blob_fixup()
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     'vendor/etc/libnfc-nxp.conf': blob_fixup()

@@ -1,4 +1,4 @@
-# Unpinned blobs from plato-user 15 AP3A.240905.015.A2 OS2.0.204.0.VLQMIXM release-keys
+# Unpinned blobs from plato-user 15 AP3A.240905.015.A2 OS2.0.5.0.VLQMIXM release-keys 
 
 # Audio
 vendor/lib64/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib64/hw/audio.primary.mt6895.so
@@ -550,6 +550,9 @@ vendor/etc/sn100u_pnx_sst.pnscr
 
 # Sensors
 vendor/etc/sensors/hals.conf
+# Plato stuff
+vendor/lib64/sensors.touch.detect.so
+vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
 
 # Thermal
 vendor/bin/mi_thermald
