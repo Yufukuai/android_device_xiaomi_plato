@@ -28,5 +28,5 @@ include device/xiaomi/mt6895-common/BoardConfigCommon.mk
 # Inherit the proprietary files
 include vendor/xiaomi/plato/BoardConfigVendor.mk
 
-+# Disable generic sensors HAL
-+TARGET_USES_GENERIC_SENSORS_HAL := false
+# Disable generic sensors HAL
+TARGET_USES_GENERIC_SENSORS_HAL := false
